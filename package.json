@@ -1,0 +1,22 @@
+{
+  "name": "simple-http-node-server",
+  "version": "1.0.0",
+  "description": "Demo for node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haparic/simple-http-node-server.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Hugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haparic/simple-http-node-server/issues"
+  },
+  "homepage": "https://github.com/haparic/simple-http-node-server#readme"
+}
