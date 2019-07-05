@@ -1,0 +1,19 @@
+ Questions
+1. Why is the fs core module important for Node development?
+It is used to access the file system by the use of code. It is used for many important tasks such as creating directories, reading content of directories, creating and copying files.
+is is the way in which it communicates with the directory and decides whether the code needs to have a synchronous or asynchronous method.
+
+2. What is the difference between sync and non-sync methods in the fs module?
+sync- code runs in sequential order, this means that it must wait for the current line of code to finish executing before moving to the next one.
+non-sync- the code continues to run each line without waiting for it to finish executing. This is useful for information retrieved from other sites such as API's
+
+3. Why are modules used?
+independent modules are used to seperate the functionality of a program into smaller pieces. Each module contains whatever is needed to execute a part of the wanted functionality and each files is treated as it's own module.
+
+4. Why are libraries such as fs used in Node programming?
+they allow built-in modules within node to solve a lot of complex tasks without having to make completely new data for each thing. The libraries hold common information that is useful in many different applications.
+
+
+
+Code Practice
+Create a Github repo called simple-http-node-server. Create an HTTP server on port 3000 with a request handler that creates a file named hello-world.txt. You will be using the fs module to do this. Write the content: "Hello to this great world" to the hello-world.txt file. Please submit your finished code in your submission.
